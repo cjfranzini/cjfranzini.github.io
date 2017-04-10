@@ -134,8 +134,6 @@ From the output of `collect_projects` I was able to extract the list of stations
 
 The final step was to map our results. I imported the coordinates of the events, companies, and recommended stations into QGIS using csv files. I was then able to plot the coordinates as points on a map of NYC.
 
-----------
 ![MTA Map]({{ site.baseurl }}/images/mta_map.png "MTA Map")
-----------
 
 The results are not suprising if you are at all familiar with the NYC subway. It's always good to check if your results are reasonable, though. 
