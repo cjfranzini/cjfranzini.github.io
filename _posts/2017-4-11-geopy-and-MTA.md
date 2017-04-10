@@ -35,7 +35,10 @@ def get_loc(places,req1,req2):
 `get_loc` takes in a list of locations to search for with the API and a string for each half of the URL request. The locations should be strings formatted to work well with URLs. This required swapping white-space characters for `+`, for instance. The function constructs the full request by placing the location in between each half. Here's an example of a full request that queries for the [Fulton St station](https://www.google.com/maps/place/Fulton+St,+New+York,+NY/@40.7102288,-74.0099294,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25a17fed80351:0xf3596b913f0c9185!8m2!3d40.7102288!4d-74.0077407).
 
 
-`https://maps.googleapis.com/maps/api/geocode/json?address=FULTON+ST+mta+subway+NY+NY&key=API_KEY`
+```python
+https://maps.googleapis.com/maps/api/geocode/json?address=FULTON+ST+mta+subway+NY+NY&key=API_KEY
+```
+
 
 The output of the Google Maps API is a .json file. A portion of the output is below. You can see the full output [here](fulton_st.json).  
 
@@ -131,6 +134,8 @@ From the output of `collect_projects` I was able to extract the list of stations
 
 The final step was to map our results. I imported the coordinates of the events, companies, and recommended stations into QGIS using csv files. I was then able to plot the coordinates as points on a map of NYC.
 
+----------
 ![MTA Map]({{ site.baseurl }}/images/mta_map.png "MTA Map")
+----------
 
 The results are not suprising if you are at all familiar with the NYC subway. It's always good to check if your results are reasonable, though. 
