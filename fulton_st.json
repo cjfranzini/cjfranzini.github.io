@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fulton Street Subway Station",
+               "short_name" : "Fulton St Subway Station",
+               "types" : [
+                  "establishment",
+                  "point_of_interest",
+                  "subway_station",
+                  "transit_station"
+               ]
+            },
+            {
+               "long_name" : "Manhattan",
+               "short_name" : "Manhattan",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "New York",
+               "short_name" : "New York",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "New York County",
+               "short_name" : "New York County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "New York",
+               "short_name" : "NY",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "10038",
+               "short_name" : "10038",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fulton St Subway Station, New York, NY 10038, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.709373,
+               "lng" : -74.00832579999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7107219802915,
+                  "lng" : -74.00697681970848
+               },
+               "southwest" : {
+                  "lat" : 40.7080240197085,
+                  "lng" : -74.00967478029149
+               }
+            }
+         },
+         "place_id" : "ChIJZRVRExhawokR_OhyrnV9EtM",
+         "types" : [
+            "establishment",
+            "point_of_interest",
+            "subway_station",
+            "transit_station"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
