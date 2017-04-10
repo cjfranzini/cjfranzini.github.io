@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using geopy to filter MTA Subway Stations
+title: Using geopy to Filter MTA Subway Stations
 ---
 
 For our first project at Metis we analyzed [MTA turnstile data](http://web.mta.info/developers/turnstile.html). Our task was to recommend stations for a fictitious non-profit to place canvassers to collect email addresses for an upcoming event. My group decided to recommend stations that were among the busiest in the city and in proximity to the largest tech companies and a handful of upcoming events.  
