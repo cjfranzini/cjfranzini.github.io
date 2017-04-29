@@ -40,7 +40,7 @@ https://maps.googleapis.com/maps/api/geocode/json?address=FULTON+ST+mta+subway+N
 ```
 
 
-The output of the Google Maps API is a .json file. A portion of the output is below. You can see the full output [here](../fulton_st.json).  
+The output of the Google Maps API is a .json file. A portion of the output is below. You can see the full output [here](data/fulton_st.json).  
 
 ```json
 {
