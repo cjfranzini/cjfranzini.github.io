@@ -48,4 +48,4 @@ The notebook for my model is [here](https://github.com/cjfranzini/committee_ad_c
 
 In the end, this project was more illustrative than predictive but it exposed an interesting aspect of the campaign finance discussion that I was previously unaware of. Looking ahead, I am interested in exploring the role of advertising agencies in political advertising and campaign finance more generally.
 
-Big thanks to ProPublica for the data and all the work they do. For more info check out http://propublica.org.
+Big thanks to ProPublica for the data and all the work they do. For more info check out [http://propublica.org](http://propublica.org).
