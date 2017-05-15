@@ -1,0 +1,1 @@
+Check out my data science blog at: [http://cjfranzini.github.io](http://cjfranzini.github.io)
